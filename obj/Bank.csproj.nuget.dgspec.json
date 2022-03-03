@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projetos-dio\\Bank\\Bank.csproj": {}
+  },
+  "projects": {
+    "C:\\projetos-dio\\Bank\\Bank.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projetos-dio\\Bank\\Bank.csproj",
+        "projectName": "Bank",
+        "projectPath": "C:\\projetos-dio\\Bank\\Bank.csproj",
+        "packagesPath": "C:\\Users\\geova\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos-dio\\Bank\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
