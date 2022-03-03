@@ -52,8 +52,7 @@ namespace Bank
             }
             this.saldo = this.saldo - valordoar;
 
-            Console.WriteLine("O saldo de {0} é {1}", this.nome, this.saldo);
-            Console.WriteLine("O valor doado foi de {0}: ", valordoar);
+            Console.WriteLine("O saldo de {0} é: {1}", this.nome, this.saldo);
 
             return true;
         }
@@ -62,17 +61,17 @@ namespace Bank
         {
             this.credito = this.credito + valoremprestar;
 
-            Console.WriteLine("Conta: {0} \n Saldo: {1} \n Créditos: {2}", this.nome, this.saldo, this.credito);
+            Console.WriteLine("\nConta: {0} \nSaldo: {1} \nCréditos: {2}", this.nome, this.saldo, this.credito);
             Console.WriteLine("O valor de empréstimo requisitado foi: {0}", valoremprestar);
         }
 
         public override string ToString()
 		{
             string retorno = "";
-            retorno += "Tipo " + this.tipo + " | ";
-            retorno += "Nome " + this.nome + " | ";
-            retorno += "Saldo " + this.saldo + " | ";
-            retorno += "Crédito " + this.credito;
+            retorno += "Tipo de conta: " + this.tipo + " | ";
+            retorno += "Nome: " + this.nome + " | ";
+            retorno += "Saldo: " + this.saldo + " | ";
+            retorno += "Crédito: " + this.credito;
 			return retorno;
 		}
     }

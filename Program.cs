@@ -109,7 +109,7 @@ namespace Bank
        }
        private static void ListarContas()
 		{
-			Console.WriteLine("Listar contas");
+			Console.WriteLine("... Listando contas ...");
 
 			if (listconta.Count == 0)
 			{
@@ -144,7 +144,7 @@ namespace Bank
            Console.Write("Digite o valor do empréstimo: ");
 		   double valoremprestar = double.Parse(Console.ReadLine());
 
-            listconta[numeroconta].Depositar(valoremprestar);
+            listconta[numeroconta].Emprestimos(valoremprestar);
 
             Console.Write("Valor de empréstimo debitado com sucesso!");
         }
